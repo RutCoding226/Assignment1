@@ -1,0 +1,90 @@
+/* TODO: Set the font size and line height */
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1%;
+  background-color: #13293d;
+  color: #fff;
+  font-size:6px;
+}
+
+main{
+  font-family:Sans-Serif;
+}
+
+.card{
+  padding:20px;
+  position:absolute;
+  left:5px;
+  background-color: blue;
+  font-size:6px;
+  
+
+}
+.cardone{
+  padding:20px;
+  background-color: blue
+  position:absolute;
+  left:5px;
+  font-size:6px;
+}
+.cardtwo{
+  padding:20px;
+  background-color:blue
+  position:relative;
+  right:5px;
+  font-size:4px;
+}
+h1 {
+  font-size: 12px;
+}
+
+h2 {
+  font-size:16px;
+}
+
+h3 {
+}
+
+ {
+  display: flex;
+  justify-content: space-between;
+  min-width: 300px;
+}
+
+nav a {
+  color: #b9c6ae;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+main {
+  display: flex;
+  flex: 1 1 0;
+  max-width: 1200px;
+  margin: 2% auto;
+}
+
+section {
+  flex: 1 1 0;
+  padding-right: 5%;
+}
+
+article {
+  border-bottom: 1px solid #d8a47f;
+}
+footer {
+  display: flex;
+  justify-content: center;
+  padding: 2%;
+  background-color: #13293d;
+  color: #fff;
+}
+
+\
